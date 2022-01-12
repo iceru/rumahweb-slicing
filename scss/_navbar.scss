@@ -1,0 +1,18 @@
+.navbar {
+    background: $gradient-primary;
+    padding: 2rem 0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: -1px;
+    border-radius: 0;
+    border: 0;
+
+    .container {
+        align-items: center;
+    }
+
+    .navbar-brand {
+        img {
+            width: 100%;
+        }
+    }
+}
