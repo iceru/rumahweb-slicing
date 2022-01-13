@@ -10,6 +10,10 @@ $blue: #444B8C;
 $header: #0D145A;
 $paragraph: rgba($color: #0D145A, $alpha: 0.7);
 
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
 
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -30,6 +34,10 @@ h3 {
 
 h4 {
     font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 h2, h3, h4, h5, h6 {

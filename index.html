@@ -33,8 +33,10 @@
         <div class="navbar">
             <div class="container">
                 <div class="row vertical-align">
-                    <div class="navbar-logo">
-                        <img src="/images/Logo.svg" alt="">
+                    <div class="col-xs-8 col-lg-4">
+                        <div class="navbar-logo">
+                            <img src="/images/Logo.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,7 +94,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="packages">
             <!-- Nav tabs -->
@@ -281,99 +282,708 @@
                 </div>
                 <div role="tabpanel" class="tab-pane packages-detail" id="packages_detail">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
+                        <div class="row selections">
+                            <div class="col-xs-12 col-lg-6">
+                                <h5>Pilih Brand</h5>
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#sectigo" aria-controls="sectigo"
+                                            role="tab" data-toggle="tab"><img src="/images/sectigo.png" alt=""></a></li>
+                                    <li role="presentation"><a href="#globalsign" aria-controls="globalsign" role="tab"
+                                            data-toggle="tab"><img src="/images/GlobalSign.png" alt=""></a></li>
+                                    <li role="presentation"><a href="#entrust" aria-controls="entrust" role="tab"
+                                            data-toggle="tab"><img src="/images/entrust.png" alt=""></a></li>
+                                </ul>
+                            </div>
 
+                            <div class="col-xs-12 col-lg-6 ">
+                                <h5>Verification/Trust Levels</h5>
+                                <div class="row verification">
+                                    <div class="col-xs-6 col-lg-3">
+                                        <div class="item">
+                                            <div class="text">
+                                                <div>ALL</div>
+                                                <div class="small"></div>
+                                            </div>
+                                            <div class="footer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-lg-3">
+                                        <div class="item dv">
+                                            <div class="text">
+                                                <div>DV</div>
+                                                <div class="small">Domain Validation</div>
+                                            </div>
+                                            <div class="footer">
+                                                Standard Trust Level
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-lg-3">
+                                        <div class="item ov">
+                                            <div class="text">
+                                                <div>OV</div>
+                                                <div class="small">Organization Validation</div>
+                                            </div>
+                                            <div class="footer">
+                                                Advanced Trust Level
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-lg-3">
+                                        <div class="item ev">
+                                            <div class="text">
+                                                <div>EV</div>
+                                                <div class="small">Extended Validation</div>
+                                            </div>
+                                            <div class="footer">
+                                                Highest Trust Level
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="brand">
-                            <div class="brand-image">
-                                <img src="/images/sectigo.png" alt="">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="sectigo">
+                                <div class="brand">
+                                    <div class="brand-image">
+                                        <img src="/images/sectigo.png" alt="">
+                                    </div>
+                                    <p>
+                                        SECTIGO adalah brand baru dari Comodo SSL, perusahaan penerbit sertifikat
+                                        (Certificate
+                                        of
+                                        Authority / CA) dengan market share terbesar yaitu 38%. Sectigo sangat populer
+                                        dengan
+                                        produk unggulannya yaitu PositiveSSL yang terkenal paling murah dengan kualitas
+                                        dan
+                                        kecepatan penerbitan SSL (DV) dalam hitungan menit saja.
+                                    </p>
+                                </div>
+
+                                <div class="brand-table">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="header-top">
+                                                    <div class="header">
+                                                        Standard Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Domain Validation</p>
+                                                        <div class="name">
+                                                            PositiveSSL
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>99.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                                <th class="header-top">
+                                                    <div class="header advance">
+                                                        Advance Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Organization Validation</p>
+                                                        <div class="name">
+                                                            InstantSSL
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>449.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                                <th class="header-top">
+                                                    <div class="header highest">
+                                                        Highest Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Extended Validation</p>
+                                                        <div class="name">
+                                                            PositiveSSL EV
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>1.799.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="table-left">Jenis Kebutuhan &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>Entry level <br>
+                                                    (blog / personal website)
+                                                </td>
+                                                <td>Corporate <br>
+                                                    (business / organization website)
+                                                </td>
+                                                <td>Enterprise <br>
+                                                    (business, banking, financial, etc)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Delivery Time &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>5 - 10 minutes
+                                                </td>
+                                                <td>3 - 7 days
+                                                </td>
+                                                <td>3 - 7 days
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Validation Method &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>Domain
+                                                </td>
+                                                <td>Domain & Business
+                                                </td>
+                                                <td>Domain & Business
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Domain &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>single (includes www)
+                                                    or wildcard
+                                                </td>
+                                                <td>single (includes www)
+                                                    or wildcard
+                                                </td>
+                                                <td>single domain (includes www)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Validity Period &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Unlimited Server License &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Strongest SHA2 & ECC Encryption &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Major Browser & Mobile Device Compatibility
+                                                    &nbsp;<span><img src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Major Browser & Mobile Device Compatibility
+                                                    &nbsp;<span><img src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    $10,000
+                                                </td>
+                                                <td>
+                                                    $50,000 - $250,000
+                                                </td>
+                                                <td>
+                                                    $1,000,000
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
                             </div>
-                            <p>
-                                SECTIGO adalah brand baru dari Comodo SSL, perusahaan penerbit sertifikat (Certificate of
-                                Authority / CA) dengan market share terbesar yaitu 38%. Sectigo sangat populer dengan
-                                produk unggulannya yaitu PositiveSSL yang terkenal paling murah dengan kualitas dan
-                                kecepatan penerbitan SSL (DV) dalam hitungan menit saja.
-                            </p>
-                        </div>
+                            <div role="tabpanel" class="tab-pane" id="globalsign">
+                                <div class="brand">
+                                    <div class="brand-image">
+                                        <img src="/images/GlobalSign.png" alt="">
+                                    </div>
+                                    <p>
+                                        GlobalSign adalah perusahaan yang bergerak di bidang trusted identity dan solusi
+                                        keamanan, termasuk salah satunya menerbitkan sertifikat SSL. GlobalSign
+                                        menyediakan panel manajemen PKI (Public Key Infrastructure) yang sangat
+                                        memudahkan perusahaan dengan banyak sertifikat SSL untuk mengelola
+                                        sertifikat-sertifikat tersebut secara lebih efisien.
+                                    </p>
+                                </div>
 
-                        <div class="brand-table">
+                                <div class="brand-table">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="header-top">
+                                                    <div class="header">
+                                                        Standard Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Domain Validation</p>
+                                                        <div class="name">
+                                                            PositiveSSL
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>99.000</b><span>/tahun</span>
+                                                        </div>
 
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th class="header-top">
-                                            <div class="header">
-                                                Standard Trust Level
-                                            </div>
-                                            <div class="body">
-                                                <p>Domain Validation</p>
-                                                <div class="name">
-                                                    PositiveSSL
-                                                </div>
-                                                <div class="price">
-                                                    IDR <b>99.000</b><span>/tahun</span>
-                                                </div>
-                                                
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="">
-                                                        Wildcard (*.domain)
-                                                    </label>
-                                                </div>
-                                                
-                                                <button class="btn btn-order">
-                                                    ORDER
-                                                </button>
-                                            </div>
-                                        </th>
-                                        <th class="header-top">
-                                            <div class="header">
-                                                Standard Trust Level
-                                            </div>
-                                            <div class="body">
-                                                <p>Domain Validation</p>
-                                                <div class="name">
-                                                    PositiveSSL
-                                                </div>
-                                                <div class="price">
-                                                    IDR <b>99.000</b><span>/tahun</span>
-                                                </div>
-                                                
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="">
-                                                        Wildcard (*.domain)
-                                                    </label>
-                                                </div>
-                                                
-                                                <button class="btn btn-order">
-                                                    ORDER
-                                                </button>
-                                            </div>
-                                        </th>
-                                        <th>Highest Trust Level</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Jenis Kebutuhan</td>
-                                        <td>Entry level
-                                            (blog / personal website)
-                                        </td>
-                                        <td>Corporate
-                                            (business / organization website)
-                                        </td>
-                                        <td>Enterprise
-                                            (business, banking, financial, etc)
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
 
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                                <th class="header-top">
+                                                    <div class="header advance">
+                                                        Advance Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Organization Validation</p>
+                                                        <div class="name">
+                                                            InstantSSL
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>449.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                                <th class="header-top">
+                                                    <div class="header highest">
+                                                        Highest Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Extended Validation</p>
+                                                        <div class="name">
+                                                            PositiveSSL EV
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>1.799.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="table-left">Jenis Kebutuhan &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>Entry level <br>
+                                                    (blog / personal website)
+                                                </td>
+                                                <td>Corporate <br>
+                                                    (business / organization website)
+                                                </td>
+                                                <td>Enterprise <br>
+                                                    (business, banking, financial, etc)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Delivery Time &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>5 - 10 minutes
+                                                </td>
+                                                <td>3 - 7 days
+                                                </td>
+                                                <td>3 - 7 days
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Validation Method &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>Domain
+                                                </td>
+                                                <td>Domain & Business
+                                                </td>
+                                                <td>Domain & Business
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Domain &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>single (includes www)
+                                                    or wildcard
+                                                </td>
+                                                <td>single (includes www)
+                                                    or wildcard
+                                                </td>
+                                                <td>single domain (includes www)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Validity Period &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Unlimited Server License &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Strongest SHA2 & ECC Encryption &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Major Browser & Mobile Device Compatibility
+                                                    &nbsp;<span><img src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Major Browser & Mobile Device Compatibility
+                                                    &nbsp;<span><img src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    $10,000
+                                                </td>
+                                                <td>
+                                                    $50,000 - $250,000
+                                                </td>
+                                                <td>
+                                                    $1,000,000
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="entrust">
+                                <div class="brand">
+                                    <div class="brand-image">
+                                        <img src="/images/Entrust.png" alt="">
+                                    </div>
+                                    <p>
+                                        Entrust Datacard menawarkan trusted identity dan teknologi keamanan transaksi
+                                        yang aman dan reliable. Entrust menghadirkan berbagai solusi mulai dari
+                                        Sertifikat SSL, keamanan passport, two-factor authentication, dan berbagai
+                                        solusi lain untuk enterprise dan perbankan.
+                                    </p>
+                                </div>
+
+                                <div class="brand-table">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="header-top">
+                                                    <div class="header">
+                                                        Standard Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Domain Validation</p>
+                                                        <div class="name">
+                                                            PositiveSSL
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>99.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                                <th class="header-top">
+                                                    <div class="header advance">
+                                                        Advance Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Organization Validation</p>
+                                                        <div class="name">
+                                                            InstantSSL
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>449.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                                <th class="header-top">
+                                                    <div class="header highest">
+                                                        Highest Trust Level
+                                                    </div>
+                                                    <div class="body">
+                                                        <p>Extended Validation</p>
+                                                        <div class="name">
+                                                            PositiveSSL EV
+                                                        </div>
+                                                        <div class="price">
+                                                            IDR <b>1.799.000</b><span>/tahun</span>
+                                                        </div>
+
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                Wildcard (*.domain)
+                                                            </label>
+                                                        </div>
+
+                                                        <button class="btn btn-order">
+                                                            ORDER
+                                                        </button>
+                                                    </div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="table-left">Jenis Kebutuhan &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>Entry level <br>
+                                                    (blog / personal website)
+                                                </td>
+                                                <td>Corporate <br>
+                                                    (business / organization website)
+                                                </td>
+                                                <td>Enterprise <br>
+                                                    (business, banking, financial, etc)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Delivery Time &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>5 - 10 minutes
+                                                </td>
+                                                <td>3 - 7 days
+                                                </td>
+                                                <td>3 - 7 days
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Validation Method &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>Domain
+                                                </td>
+                                                <td>Domain & Business
+                                                </td>
+                                                <td>Domain & Business
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Domain &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>single (includes www)
+                                                    or wildcard
+                                                </td>
+                                                <td>single (includes www)
+                                                    or wildcard
+                                                </td>
+                                                <td>single domain (includes www)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Validity Period &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                                <td>
+                                                    1 year
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Unlimited Server License &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Strongest SHA2 & ECC Encryption &nbsp;<span><img
+                                                            src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Major Browser & Mobile Device Compatibility
+                                                    &nbsp;<span><img src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                                <td>
+                                                    <img src="/images/icon-rectangle-checklist.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-left">Major Browser & Mobile Device Compatibility
+                                                    &nbsp;<span><img src="/images/icon-info.png" alt=""></span></td>
+                                                <td>
+                                                    $10,000
+                                                </td>
+                                                <td>
+                                                    $50,000 - $250,000
+                                                </td>
+                                                <td>
+                                                    $1,000,000
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -509,7 +1119,7 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-xs-6 col-lg-4 item">
+                    <div class="col-xs-12 col-lg-4 item">
                         <div class="item-image">
                             <img src="/images/icon-key.svg" alt="">
                         </div>
@@ -518,7 +1128,7 @@
                             internet menggunakan teknologi enkripsi.</p>
                     </div>
 
-                    <div class="col-xs-6 col-lg-4 item">
+                    <div class="col-xs-12 col-lg-4 item">
                         <div class="item-image">
                             <img src="/images/icon-thumbs-up.svg" alt="">
                         </div>
@@ -528,7 +1138,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xs-6 col-lg-4 item">
+                    <div class="col-xs-12 col-lg-4 item">
                         <div class="item-image">
                             <img src="/images/icon-trend-up.svg" alt="">
                         </div>
@@ -538,7 +1148,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xs-6 col-lg-4 item">
+                    <div class="col-xs-12 col-lg-4 item">
                         <div class="item-image">
                             <img src="/images/icon-wavy-check-circle.svg" alt="">
                         </div>
@@ -550,7 +1160,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xs-6 col-lg-4 item">
+                    <div class="col-xs-12 col-lg-4 item">
                         <div class="item-image">
                             <img src="/images/icon-browsers.svg" alt="">
                         </div>
@@ -561,7 +1171,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xs-6 col-lg-4 item">
+                    <div class="col-xs-12 col-lg-4 item">
                         <div class="item-image">
                             <img src="/images/icon-warning-circle.svg" alt="">
                         </div>
@@ -644,6 +1254,52 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+
+        <div class="rating">
+            <h2>Berikan Rating <br> Produk Hosting ini</h2>
+            <img src="/images/Stars.png" alt="Rating">
+            <p>4,8/5 dari 406 ulasan di Google</p>
+        </div>
+
+        <div class="contact container">
+            <div class="contact-desc">
+                <div class="row vertical-align">
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="/images/Contact.svg" alt="Contact">
+                    </div>
+                    <div class="col-xs-12 col-lg-8 contact-text">
+                        <h3>Orang Rumah Selalu Ada di Sini</h3>
+                        <p>Jangan ragu memulai langkah di dunia maya bersama Rumahweb. Tak peduli apakah Anda seorang
+                            newbie atau expert, Orang Rumah(web) akan selalu siap membantu. <br> <br>
+                            <b>Telepon 0274-882257 atau [Chat]</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="/images/Siaga.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="/images/Tutorial.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="/images/Spesialisasi.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <img src="/images/Logo.svg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
